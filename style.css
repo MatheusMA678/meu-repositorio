@@ -10,10 +10,11 @@ body{
 main{
     width: 600px;
     height: 700px;
-    padding: 20px;
+    padding: 30px;
     border-radius: 20px;
     background-color: white;
     box-shadow: 5px 5px 15px rgb(50, 50, 50);
+    overflow: hidden;
 }
 
 main h1{
@@ -32,4 +33,55 @@ main a{
 main a:hover{
     text-decoration: underline;
     color: blue;
+}
+
+.curso1{
+    width: 250px;
+    border: 2px solid;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.lista{
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid;
+}
+
+.lista ol{
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+
+.lista ul{
+    margin: auto;
+    padding: 10px;
+    list-style: none;
+}
+
+.lista2{
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid;
+}
+
+.lista2 ol{
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+
+.lista2 ul{
+    margin: auto;
+    padding: 10px;
+    list-style: none;
+}
+
+.voltar{
+    padding: 10px 0;
+    text-align: center;
 }

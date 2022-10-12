@@ -1,59 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Repositório</title>
-    <style>
-        body{
-            margin: 60px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 14pt;
-            background-color: rgba(0, 0, 0, 0.5);
-            display: flex;
-            justify-content: center;
-        }
-
-        main{
-            width: 600px;
-            height: 700px;
-            padding: 20px;
-            border-radius: 20px;
-            background-color: white;
-            box-shadow: 5px 5px 15px rgb(50, 50, 50);
-        }
-
-        main h1{
-            text-align: center;
-        }
-
-        main p{
-            text-align: justify;
-        }
-
-        main a{
-            color: black;
-            text-decoration: none;
-        }
-
-        main a:hover{
-            text-decoration: underline;
-            color: blue;
-        }
-    </style>
 </head>
 <body>
     <main>
     <h1>Bem vindo(a) ao meu repositório do GitHub!</h1>
     <p>Este é o meu primeiro repositório do GitHub! Aqui vou publicar meus projetos, exercícios e desafios que realizei durante o <strong>Curso de HTML5 e CSS3</strong> do Curso em Video.</p>
-    <ol>
-        <li><strong><ins>html-css</ins></strong></li>
-        <ul type="disc">
-            <li><a href="">Exercícios</a></li>
-            <li><a href="">Desafios</a></li>
-        </ul>
-    </ol>
+    <div class="conteudo">
+        <div class="lista">
+            <ol>
+                <li><strong><ins>HTML5 e CSS3</ins></strong></li>
+                <ul type="disc">
+                    <li><a href="exercicios.html" rel="next" target="_self">Exercícios</a></li>
+                    <li><a href="desafios.html" rel="next" target="_self">Desafios</a></li>
+                </ul>
+            </ol>
+        </div>
+        <div class="lista2">
+            <ol>
+                <li><strong><ins>Projetos</ins></strong></li>
+                <ul>
+                    <li><a href="#">*Em breve*</a></li>
+                </ul>
+            </ol>
+        </div>
+    </div>
     </main>
 </body>
 </html>
