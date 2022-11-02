@@ -44,11 +44,6 @@ main a:hover{
     color: blue;
 }
 
-.curso1{
-    width: 250px;
-    border: 2px solid;
-}
-
 .conteudo{
     display: flex;
     justify-content: space-around;
@@ -58,6 +53,7 @@ main a:hover{
     width: 250px;
     border-radius: 10px;
     border: 2px solid;
+    padding: 10px 0;
 }
 
 .lista ol{
@@ -67,24 +63,6 @@ main a:hover{
 }
 
 .lista ul{
-    margin: auto;
-    padding: 10px;
-    list-style: none;
-}
-
-.lista2{
-    width: 250px;
-    border-radius: 10px;
-    border: 2px solid;
-}
-
-.lista2 ol{
-    padding: 0;
-    text-align: center;
-    list-style: none;
-}
-
-.lista2 ul{
     margin: auto;
     padding: 10px;
     list-style: none;
